@@ -141,10 +141,13 @@ article div h1 {
 	font-weight: bold;
 }
 
+.difficulty {
+	padding-left: 52px;
+}
+
 div.gallery {
     margin: 0px;
 	margin-bottom: 15px;
-    float: center;
     width: 210px;
 	border: none;
 	align-content: center;
