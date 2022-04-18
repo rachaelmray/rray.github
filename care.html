@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    
+    
+    Starting Page sample for final project - for educational purposes, all content is fictional 
+    Author: Rachael Ray
+	Term and Year: Spring 22
+
+    Filename: care.html
+   -->
+   <meta name="keywords" content="Plant, Nursery, Plants" />
+   <title>SunRay Plant Nursery</title>
+   <link href="css/base.css" rel="stylesheet" />
+   <link href="css/layout.css" rel="stylesheet" />
+  
+</head>
+
+<body>
+   <header>
+      <a href="index.html"><img src="images/sunraybanner.png" alt="SunRay Banner" /></a>
+      <nav>
+         <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="plants.html">PLANTS</a></li>
+            <li><a href="care.html">PLANT CARE</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+         </ul>
+      </nav>
+   </header>
+   <article>
+
+      <h1>PLANT CARE</h1>
+
+      <p>SunRay Plant Nursery has all the necessities you need to keep your plants happy and healthy. With everything from stylish pots and tools
+          to leaf shine and fly traps, we are the perfect one-stop-shop for all-things plants. 
+      </p>
+
+      <img src="images/care1.jpg" alt="Potting tools" class="care1">
+      <img src="images/care3.jpg" alt="Plants in window" class="care3">
+      <img src="images/care2.jpg" alt="Potting tools" class="care2">
+
+      <h2>QUESTIONS ABOUT CARING FOR YOUR PLANTS?</h2>
+      <p>Caring for plants can be stressful at times, especially if they are not responding to your previous care methods.</p>
+
+      <h3>WE ARE HERE TO HELP!</h3>
+
+      <p>Your plant does not have to be from our store! Simply fill out the form below and attach a photo of your plant(s). We will respond <strong>within 24-48 hours</strong> with our best advice on
+         how to care for your plant!</p>
+
+         <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">Name *</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          
+              <label for="lname">Plant Type (if known)</label>
+              <input type="text" id="lname" name="lastname" placeholder="i.e. String of Hearts">
+          
+              <label for="email">Email *</label>
+              <input type="text" placeholder="Enter Email" name="email" required>          
+          
+              <label for="subject">Subject *</label>
+              <textarea id="subject" name="subject" placeholder="Tell us about your concerns..." style="height:200px" required></textarea>
+
+              <label for="upload">Upload Image / File *</label>
+              <input type="file" id="myFile" name="filename" required>
+
+              <p>* INDICATES REQUIRED FIELDS</p>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+
+   </article>
+   <footer>
+      <p>SunRay Plant Nursery<br />
+         600 Hoyt Street &bull; Peru, NE 68421<br />
+         <a href = "https://facebook.com" target="_blank">Facebook</a> | <a href="https://www.google.com/maps" target="_blank">Directions</a> | <a href=tel:+ 4021234321>Call Us</a> | <a href=mailto:emailaddress@mail.com>Email Us</a></p>
+      
+   </footer>
+</body>
+</html>
