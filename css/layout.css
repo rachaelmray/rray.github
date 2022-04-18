@@ -295,8 +295,10 @@ body article h2 {
 
 body article h3 {
 	color: #ffccb8;
-	letter-spacing: 0.08em;
+	letter-spacing: 0.10em;
 	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 dl#ct_locations {
