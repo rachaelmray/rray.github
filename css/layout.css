@@ -52,6 +52,13 @@ iframe {
 	max-width: 200px;
 }
 
+.seedlings {
+	size: 100%;
+	width: 700px;
+	height: 250px;
+	padding-left: 55px;
+}
+
 body {
 	margin-left: auto;
 	margin-right: auto;
@@ -314,10 +321,7 @@ article img {
 	float: left;
 	width: 40%;
 	margin: 0% 3% 2% 2%;
-	margin-top: 10px;
-	margin-bottom: 25px;
 }
-
 
 nav ul li {
 	display: table-cell;
