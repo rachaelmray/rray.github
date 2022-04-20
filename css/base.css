@@ -233,9 +233,18 @@ textarea {
 */
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+	height: 300px;
+	align-content: center;
 }
+
 td, th {
 	vertical-align: top;
+	width: 10%;
+	letter-spacing: 0.05em;
+	text-align: center;
+}
+
+.diffimg {
+	width: 45%;
+	padding-left: 75px;
 }
