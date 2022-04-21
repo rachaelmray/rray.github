@@ -59,6 +59,40 @@ iframe {
 	padding-left: 55px;
 }
 
+.hours {
+	width: 255px;
+	height: 185px;
+	padding-bottom: 5px;
+}
+
+.soh {
+	padding-top: 5px;
+}
+
+.store {
+	padding-top: 10px;
+	height: 400px;
+	width: 230px;
+}
+
+.store2 {
+	padding-top: 10px;
+	height: 400px;
+	width: 230px;
+	float: right;
+}
+
+.store3 {
+	height: 400px;
+	width: 230px;
+}
+
+.store4 {
+	height: 400px;
+	width: 230px;
+	float: right;
+}
+
 body {
 	margin-left: auto;
 	margin-right: auto;
@@ -160,7 +194,11 @@ input[type=text], select, textarea {
 	padding: 20px;
 	padding-left: 75px;
 	padding-right: 75px;
-}
+  }
+
+  .subject {
+	height: 200px;
+  }
 
 header img {
 	float: none;
@@ -222,7 +260,7 @@ article div h1 {
 
 .difficulty {
 	padding-left: 52px;
-	padding-bottom: 17px;
+	padding-bottom: 22px;
 }
 
 div.gallery {
